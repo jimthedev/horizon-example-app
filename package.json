@@ -1,0 +1,17 @@
+{
+  "name": "horizon-example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "http-server dist -p 8080",
+    "start:prod": "http-server dist -p 80",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
